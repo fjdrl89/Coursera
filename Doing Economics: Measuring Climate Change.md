@@ -1,6 +1,6 @@
-# Week 1
+# **Week 1**
 
-## Introduction to Climate Change
+## **Introduction to Climate Change**
 
 Many scientists now see climate change as the greatest threat to future human wellbeing. This problem has five particular features that make it especially challenging:
 
@@ -11,7 +11,7 @@ most agree that climate change could be catastrophic. Therefore, policymakers ne
 * _A global problem requiring international cooperation_: The contributions to climate change come from all parts of the world, and its effects will also be felt globally. It will be solved only by a high level of cooperation between the largest and most powerful nations (at a minimum), on a scale without historical precedent.
 * _Conflicts of interest_: The impacts of climate change differ among people according to their economic circumstances, both across the globe and within countries. Future generations will experience the effects of today’s emissions, but also the actions we take to reduce them. It is unclear how to balance the competing interests of individuals in different economic circumstances, and the interests of current and future generations.
 
-### Climate change and economic activity
+### **Climate change and economic activity**
 
 The figure below shows the data on the stock of CO2 (in parts per million) using the right-hand scale, and global temperature (as the deviation from the 1961-1990 average) using the left-hand scale, for the years 1750-2000.
 
@@ -27,7 +27,7 @@ The figure below presents a "bathtub model" to illustrate why continual CO2 emis
 
 <img width="568" height="607" alt="image" src="https://github.com/user-attachments/assets/566ff53f-0a30-4e15-a872-633116addee0" />
 
-### Limiting climate change by reducing CO2 emissions 
+### **Limiting climate change by reducing CO2 emissions **
 
 It is estimated that we can emit only a further 1 to 1.5 trillion tonnes of CO2 into the atmosphere to give reasonable odds of limiting the increase in temperature to 2°C above pre-industrial levels. Should we manage to achieve this limit on emissions, there is still a probability of around 1% that temperature increases would be more than 6°C, causing a global economic catastrophe. 
 
@@ -50,7 +50,7 @@ Links:
 * https://policyintegrity.org/publications/detail/expert-climate-consensus
 * https://blogs.edf.org/climate411/2008/02/26/ghg_lifetimes/
 
-## Predicted and potential effects of climate change on lifestyles and the economy
+## **Predicted and potential effects of climate change on lifestyles and the economy**
 
 The reality of climate change is now widely accepted in the scientific community. The likely consequences of global warming are far-reaching: melting of the polar ice caps, rising sea levels that may put large coastal areas under water, and potential changes in climate and rain patterns that may destroy the world’s food-growing areas.    
 
@@ -71,7 +71,7 @@ Links:
 * https://mybrand.schroders.com/m/01053abe732aa4a1/original/The-impact-of-climate-change.pdf
 * https://www.ipcc.ch/report/ar6/wg2/
 
-## Measuring temperature changes over long time periods
+## **Measuring temperature changes over long time periods**
 
 This week, we will be using temperature data from NASA to investigate how temperatures have changed over the past 150 years. 
 
@@ -84,16 +84,53 @@ Temperature anomalies are a useful measure of regional or global temperatures be
 * They are more representative of a wider area than absolute temperatures. Absolute temperature can vary greatly within a region. For example, the temperature at the top of a mountain will be much lower than the temperature at the bottom of that mountain, so the average temperature may not be very meaningful. To assess how temperatures in that mountain area have changed over time, taking the average of the temperature changes (average change at the top of the mountain and average change at the bottom of the mountain) gives a more accurate measure than taking the average temperature at the top and the bottom.
 * They allow us to reliably compare temperature changes over time. Researchers have encountered problems when trying to assess how absolute temperatures have changed over time, because their conclusions depended on the baseline temperature chosen (the long-run average absolute temperature). The recommended baseline temperature to use changes over time according to further research – for example, before 2000, the baseline temperature commonly used was 15 degrees Celsius, but it changed to 14 degrees Celsius after 2000. These changes in baseline temperature make it difficult to compare absolute temperatures across time. In contrast, when using anomalies, there is nothing special about NASA’s choice of 1951-1980 as the base period. Using any other base period would give the same conclusions about temperature changes over time.
 
+Link: https://data.giss.nasa.gov/gistemp/faq/#q101 
 
+## **Excel: Plot a line chart of global temperatures from 1800-present**
 
+In the questions below, we use NASA data on land-ocean temperature anomalies in the northern hemisphere. The figure below is constructed using this data, and shows temperatures in the northern hemisphere over the period 1880–2016, expressed as anomalies (differences from the average temperature from 1951 to 1980). We start by creating charts similar to the figure below, in order to visualize the data and spot patterns more easily.
 
+<img width="796" height="394" alt="image" src="https://github.com/user-attachments/assets/5689ebc6-bec5-4c7c-ad91-eff80d955dd9" />
 
+_Figure source: CORE Economics Education. (Source data: NASA's Goddard Institute for Space Studies, https://data.giss.nasa.gov/gistemp/)_
 
+Before plotting any charts, download the data and make sure you understand how temperature is measured:
 
+* Go to NASA’s [Goddard Institute for Space Studies](https://data.giss.nasa.gov/gistemp/) website.
+* Under the subheading ‘Combined Land-Surface Air and Sea-Surface Water Temperature Anomalies’, select the CSV version of ‘Northern Hemisphere-mean monthly, seasonal, and annual means’ (right-click and select ‘Save Link As…’ or ‘Download Linked File As…’).
+* The default name of this file is NH.Ts+dSST.csv. Give it a suitable name and save it in an easily accessible location, such as a folder on your Desktop or in your personal folder.
 
+**Step 1.** In this dataset, temperature is measured as ‘anomalies’ rather than absolute temperature. Using the discussion from the previous section ('Measuring temperature changes over long time periods') and NASA’s 
+Frequently Asked Questions section as a reference, explain in your own words what temperature ‘anomalies’ means. Why have researchers chosen this particular measure over other measures (such as absolute temperature)?
 
+Now we will create some line charts using monthly, seasonal, and annual data, which help us look for general patterns over time. For the following tasks, make sure to save your data in Excel format (.xlsx) and not as a CSV file (.csv) – otherwise your work may not be saved when you close the file!  
 
+**Step 2.** The column labelled ‘J–D’ contains the average temperature anomaly for each year.
 
+* Plot a line chart with annual average temperature anomaly on the vertical axis and time (from 1880 to the latest year available) on the horizontal axis. Label each axis appropriately and give your chart a suitable title (refer to the figure above as an example). Your chart should look like the figure above (but not identical since you’re using the latest available data). 
+* _Extension:_ Add a horizontal line that intersects the vertical axis at 0, and label it ‘1951–1980 average’.
+
+- [You can use this illustrated guide for step-by-step instructions on drawing a line chart in Excel.](https://books.core-econ.org/doing-economics/book/text/01-02.html#excel-walk-through-12-plotting-a-line-chart-and-adding-a-horizontal-line) 
+- [You can use this illustrated guide for step-by-step instructions on adding a line to a line plot in Excel.](https://books.core-econ.org/the-economy-v1/book/text/01.html#figure-1-6b)
+
+Step 3. The columns labelled ‘DJF’, ‘MAM’, ‘JJA’, and ‘SON’ contain seasonal averages (means). For example, the ‘MAM’ column contains the average of the March, April, and May columns for each year. 
+
+Plot a separate line chart for each season, using average temperature anomaly for that season on the vertical axis and time (from 1880 to the latest year available) on the horizontal axis.
+
+Using your charts from Steps 2 and 3, describe the relationship between temperature and time.
+
+Step 4. Compare your chart from Step 2 to the figure in 
+this link
+, which also shows the behaviour of temperature over time but uses data taken from another source.
+
+Discuss the similarities and differences between the charts. (For example, are the horizontal and vertical axes variables the same, or do the lines have the same shape?)
+
+Looking at the behaviour of temperature over time from 1000 to 1900 in the linked figure, how unusual are the observed patterns in your charts from Steps 2 and 3?
+
+Hints
+If you would like to check your work, you can consult the 
+solution guide
+ (refer to points 1-4). Note that your charts may look slightly different to those in the solution guide, because you are using the most updated data. 
 
 
 
