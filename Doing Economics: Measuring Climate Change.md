@@ -100,10 +100,24 @@ Before plotting any charts, download the data and make sure you understand how t
 * Under the subheading ‘Combined Land-Surface Air and Sea-Surface Water Temperature Anomalies’, select the CSV version of ‘Northern Hemisphere-mean monthly, seasonal, and annual means’ (right-click and select ‘Save Link As…’ or ‘Download Linked File As…’).
 * The default name of this file is NH.Ts+dSST.csv. Give it a suitable name and save it in an easily accessible location, such as a folder on your Desktop or in your personal folder.
 
-**Step 1.** In this dataset, temperature is measured as ‘anomalies’ rather than absolute temperature. Using the discussion from the previous section ('Measuring temperature changes over long time periods') and NASA’s 
-Frequently Asked Questions section as a reference, explain in your own words what temperature ‘anomalies’ means. Why have researchers chosen this particular measure over other measures (such as absolute temperature)?
+**Step 1.** In this dataset, temperature is measured as ‘anomalies’ rather than absolute temperature. Using the discussion from the previous section ('Measuring temperature changes over long time periods') and NASA’s Frequently Asked Questions section as a reference, explain in your own words what temperature ‘anomalies’ means. 
+
+Why have researchers chosen this particular measure over other measures (such as absolute temperature)? 
+
+‘Temperature anomalies indicate how much warmer or colder it is than normal for a particular place and time. For the GISS analysis, normal always means the average over the 30-year period 1951–1980 for that place and time of year. This base period is specific to GISS, not universal. But note that trends do not depend on the choice of the base period: If the absolute temperature at a specific location is two degrees higher than a year ago, so is the corresponding temperature anomaly, no matter what base period is selected, since the normal temperature used as base point is the same for both years.
+
+Note that regional mean anomalies (in particular global anomalies) are not computed from the current absolute mean and the 1951–1980 mean for that region, but from station temperature anomalies. Finding absolute regional means encounters significant difficulties that create large uncertainties. This is why the GISS analysis deals with anomalies rather than absolute temperatures. For a more detailed discussion of that topic, see [The elusive absolute surface air temperature](https://tinyco.re/3995846).’
+
+Temperature anomaly measures, at any given place and time, the difference between observed temperature and the reference long-term average, or ‘normal’ temperature value. The long-term average is typically computed by averaging 30 or more years of data. The GISS analysis, for example, uses the average temperature from the period 1951–1980. A positive anomaly indicates that the observed temperature is warmer than the baseline long-term average temperature.
+
+The use of anomalies, compared to other measures such as absolute temperature, allows for a more accurate representation of temperatures over larger areas. It provides a frame of reference that allows for more meaningful comparisons between locations.
+
+The compilation of other indicators, such as absolute average temperatures, are difficult and controversial. The absolute average temperature data is more susceptible to uncertainties and inaccuracies. Temperature stations are unevenly distributed, in regions with very few stations, interpolation must be made over large areas. The temperature at a mountain top is lower than at the bottom. If a mountainous area is in general cooler than the baseline in a given month, the anomaly will show that temperatures for both locations (the top and bottom areas of a mountain) are below the reference value. If we use absolute temperature, however, the disparity between the measures at a mountain top and bottom would be quite large. Using anomalies also diminishes problems when stations are added, removed or missing.
+---
 
 Now we will create some line charts using monthly, seasonal, and annual data, which help us look for general patterns over time. For the following tasks, make sure to save your data in Excel format (.xlsx) and not as a CSV file (.csv) – otherwise your work may not be saved when you close the file!  
+
+
 
 **Step 2.** The column labelled ‘J–D’ contains the average temperature anomaly for each year.
 
@@ -113,7 +127,7 @@ Now we will create some line charts using monthly, seasonal, and annual data, wh
 - [You can use this illustrated guide for step-by-step instructions on drawing a line chart in Excel.](https://books.core-econ.org/doing-economics/book/text/01-02.html#excel-walk-through-12-plotting-a-line-chart-and-adding-a-horizontal-line) 
 - [You can use this illustrated guide for step-by-step instructions on adding a line to a line plot in Excel.](https://books.core-econ.org/the-economy-v1/book/text/01.html#figure-1-6b)
 
-Step 3. The columns labelled ‘DJF’, ‘MAM’, ‘JJA’, and ‘SON’ contain seasonal averages (means). For example, the ‘MAM’ column contains the average of the March, April, and May columns for each year. 
+**Step 3.** The columns labelled ‘DJF’, ‘MAM’, ‘JJA’, and ‘SON’ contain seasonal averages (means). For example, the ‘MAM’ column contains the average of the March, April, and May columns for each year. 
 
 Plot a separate line chart for each season, using average temperature anomaly for that season on the vertical axis and time (from 1880 to the latest year available) on the horizontal axis.
 
@@ -128,9 +142,7 @@ Discuss the similarities and differences between the charts. (For example, are t
 Looking at the behaviour of temperature over time from 1000 to 1900 in the linked figure, how unusual are the observed patterns in your charts from Steps 2 and 3?
 
 Hints
-If you would like to check your work, you can consult the 
-solution guide
- (refer to points 1-4). Note that your charts may look slightly different to those in the solution guide, because you are using the most updated data. 
+If you would like to check your work, you can consult the solution guide(refer to points 1-4). Note that your charts may look slightly different to those in the solution guide, because you are using the most updated data. 
 
 
 
