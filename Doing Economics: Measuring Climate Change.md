@@ -104,20 +104,18 @@ Before plotting any charts, download the data and make sure you understand how t
 
 Why have researchers chosen this particular measure over other measures (such as absolute temperature)? 
 
-‘Temperature anomalies indicate how much warmer or colder it is than normal for a particular place and time. For the GISS analysis, normal always means the average over the 30-year period 1951–1980 for that place and time of year. This base period is specific to GISS, not universal. But note that trends do not depend on the choice of the base period: If the absolute temperature at a specific location is two degrees higher than a year ago, so is the corresponding temperature anomaly, no matter what base period is selected, since the normal temperature used as base point is the same for both years.
-
-Note that regional mean anomalies (in particular global anomalies) are not computed from the current absolute mean and the 1951–1980 mean for that region, but from station temperature anomalies. Finding absolute regional means encounters significant difficulties that create large uncertainties. This is why the GISS analysis deals with anomalies rather than absolute temperatures. For a more detailed discussion of that topic, see [The elusive absolute surface air temperature](https://tinyco.re/3995846).’
-
-Temperature anomaly measures, at any given place and time, the difference between observed temperature and the reference long-term average, or ‘normal’ temperature value. The long-term average is typically computed by averaging 30 or more years of data. The GISS analysis, for example, uses the average temperature from the period 1951–1980. A positive anomaly indicates that the observed temperature is warmer than the baseline long-term average temperature.
-
-The use of anomalies, compared to other measures such as absolute temperature, allows for a more accurate representation of temperatures over larger areas. It provides a frame of reference that allows for more meaningful comparisons between locations.
-
-The compilation of other indicators, such as absolute average temperatures, are difficult and controversial. The absolute average temperature data is more susceptible to uncertainties and inaccuracies. Temperature stations are unevenly distributed, in regions with very few stations, interpolation must be made over large areas. The temperature at a mountain top is lower than at the bottom. If a mountainous area is in general cooler than the baseline in a given month, the anomaly will show that temperatures for both locations (the top and bottom areas of a mountain) are below the reference value. If we use absolute temperature, however, the disparity between the measures at a mountain top and bottom would be quite large. Using anomalies also diminishes problems when stations are added, removed or missing.
----
+> [!NOTE]
+> ‘Temperature anomalies indicate how much warmer or colder it is than normal for a particular place and time. For the GISS analysis, normal always means the average over the 30-year period 1951–1980 for that place and time of year. This base period is specific to GISS, not universal. But note that trends do not depend on the choice of the base period: If the absolute temperature at a specific location is two degrees higher than a year ago, so is the corresponding temperature anomaly, no matter what base period is selected, since the normal temperature used as base point is the same for both years.
+>
+> Note that regional mean anomalies (in particular global anomalies) are not computed from the current absolute mean and the 1951–1980 mean for that region, but from station temperature anomalies. Finding absolute regional means encounters significant difficulties that create large uncertainties. This is why the GISS analysis deals with anomalies rather than absolute temperatures. For a more detailed discussion of that topic, see [The elusive absolute surface air temperature](https://tinyco.re/3995846).’
+>
+> Temperature anomaly measures, at any given place and time, the difference between observed temperature and the reference long-term average, or ‘normal’ temperature value. The long-term average is typically computed by averaging 30 or more years of data. The GISS analysis, for example, uses the average temperature from the period 1951–1980. A positive anomaly indicates that the observed temperature is warmer than the baseline long-term average temperature.
+>
+> The use of anomalies, compared to other measures such as absolute temperature, allows for a more accurate representation of temperatures over larger areas. It provides a frame of reference that allows for more meaningful comparisons between locations.
+>
+> The compilation of other indicators, such as absolute average temperatures, are difficult and controversial. The absolute average temperature data is more susceptible to uncertainties and inaccuracies. Temperature stations are unevenly distributed, in regions with very few stations, interpolation must be made over large areas. The temperature at a mountain top is lower than at the bottom. If a mountainous area is in general cooler than the baseline in a given month, the anomaly will show that temperatures for both locations (the top and bottom areas of a mountain) are below the reference value. If we use absolute temperature, however, the disparity between the measures at a mountain top and bottom would be quite large. Using anomalies also diminishes problems when stations are added, removed or missing.
 
 Now we will create some line charts using monthly, seasonal, and annual data, which help us look for general patterns over time. For the following tasks, make sure to save your data in Excel format (.xlsx) and not as a CSV file (.csv) – otherwise your work may not be saved when you close the file!  
-
-
 
 **Step 2.** The column labelled ‘J–D’ contains the average temperature anomaly for each year.
 
@@ -129,24 +127,138 @@ Now we will create some line charts using monthly, seasonal, and annual data, wh
 
 **Step 3.** The columns labelled ‘DJF’, ‘MAM’, ‘JJA’, and ‘SON’ contain seasonal averages (means). For example, the ‘MAM’ column contains the average of the March, April, and May columns for each year. 
 
-Plot a separate line chart for each season, using average temperature anomaly for that season on the vertical axis and time (from 1880 to the latest year available) on the horizontal axis.
+- Plot a separate line chart for each season, using average temperature anomaly for that season on the vertical axis and time (from 1880 to the latest year available) on the horizontal axis.
 
-Using your charts from Steps 2 and 3, describe the relationship between temperature and time.
+<img width="1264" height="753" alt="image" src="https://github.com/user-attachments/assets/48c2b3cf-99ce-4a75-ba71-bc8dab134874" />
 
-Step 4. Compare your chart from Step 2 to the figure in 
-this link
-, which also shows the behaviour of temperature over time but uses data taken from another source.
+<img width="1264" height="753" alt="image" src="https://github.com/user-attachments/assets/029c83b3-185b-4579-a68e-a2fdac615d6a" />
 
-Discuss the similarities and differences between the charts. (For example, are the horizontal and vertical axes variables the same, or do the lines have the same shape?)
+<img width="1264" height="752" alt="image" src="https://github.com/user-attachments/assets/d948c99c-4786-4170-8616-8b322352a1b1" />
 
-Looking at the behaviour of temperature over time from 1000 to 1900 in the linked figure, how unusual are the observed patterns in your charts from Steps 2 and 3?
+<img width="1264" height="753" alt="image" src="https://github.com/user-attachments/assets/3f72da65-2872-42a3-a261-09f8ecebb4fe" />
+
+- Using your charts from Steps 2 and 3, describe the relationship between temperature and time.
+
+> [!NOTE]
+> Solution figures 1.1 and 1.6 show that temperature has been increasing over time. The average temperature anomaly initially fluctuated around a relatively low mean between 1880 and 1920, and then fluctuated around a higher mean value between 1920 and 1975. From about 1975, temperature anomalies were positive and displayed an increasing trend, indicating that absolute temperatures are also increasing. The overall positive relationship between temperature and time shown by the charts provides evidence to support the presence of global warming.
+
+Step 4. Compare your chart from Step 2 to the figure in [this link](https://books.core-econ.org/the-economy-v1/book/text/01.html#figure-1-6b), which also shows the behaviour of temperature over time but uses data taken from another source.
+
+- Discuss the similarities and differences between the charts. (For example, are the horizontal and vertical axes variables the same, or do the lines have the same shape?)
+
+- Looking at the behaviour of temperature over time from 1000 to 1900 in the linked figure, how unusual are the observed patterns in your charts from Steps 2 and 3?
 
 Hints
-If you would like to check your work, you can consult the solution guide(refer to points 1-4). Note that your charts may look slightly different to those in the solution guide, because you are using the most updated data. 
+If you would like to check your work, you can consult the [solution guide](https://books.core-econ.org/doing-economics/book/text/01-04.html) (refer to points 1-4). Note that your charts may look slightly different to those in the solution guide, because you are using the most updated data. 
+
+## Excel: Visualising the extent of climate change
+
+In this activity, you will use data on other environmental variables to make charts that visualise the extent of climate change. 
+
+Step 1. Go to the [Our World in Data climate change explorer](https://ourworldindata.org/explorers/climate-change?Metric=Temperature+anomaly&Long-run+series=false&country=OWID_WRL~ATA~Gulkana+Glacier~Lemon+Creek+Glacier~OWID_NAM~South+Cascade+Glacier~Wolverine+Glacier~Hawaii~Arctic+Ocean). The ‘Metric’ drop-down menu contains a list of environmental variables, including ocean pH, sea level rise, and snow cover. Follow these instructions to download data for 3 environmental variables of your choice:
+
+- Select the environmental variable from the drop-down menu. The webpage will update with a chart showing that data.
+- At the bottom of the chart, select the tab that says ‘Download’. 
+- Select the option that says ‘Full data (CSV)’.  The file should download onto your computer. 
+
+Step 2. For each environmental variable you chose in Step 1:
+
+- Make a suitable line chart to visualise the data. Remember to label both axes clearly and give your chart a suitable title.
+- Describe the chart in 1-3 sentences. 
+
+**Optional activity:** To explore more data on climate and the environment, visit the National Oceanic and Atmospheric Administration’s [Climate Monitoring webpage](https://www.ncei.noaa.gov/access/monitoring/products/).
+
+<img width="3400" height="2400" alt="global-warming-annual-temperature-anomaly" src="https://github.com/user-attachments/assets/6a8985ab-e2f5-4aee-bdc8-f2c40f282ae4" />
+
+<img width="3400" height="2400" alt="global-warming-monthly-sea-surface-temperature-anomaly" src="https://github.com/user-attachments/assets/35815a59-3f2a-4c17-b2ba-ad1478db364e" />
+
+<img width="3400" height="2400" alt="sea-level-rise" src="https://github.com/user-attachments/assets/95275954-c6cb-40e2-8670-e05a0986d25e" />
 
 
+## Practice Assignment
 
+### Question 1  
+**If countries continue with “business as usual” (not taking measures to cut emissions), global temperatures are predicted to rise by 4°C by 2100.**
 
+**Answer:** **True.**  
+Under high-emissions “business as usual” scenarios (e.g. RCP8.5), climate models project global warming of around 4°C by 2100 relative to pre-industrial levels (IPCC AR5; IPCC AR6).
+
+### Question 2  
+**Stabilising the level of CO₂ we emit into the atmosphere each year should be sufficient to limit the rise in global temperatures.**
+
+**Answer:** **False.**  
+Global temperature increase depends on cumulative CO₂ emissions, not annual emission levels; temperatures stabilise only when net emissions approach zero (IPCC AR6).
+
+### Question 3  
+**Temperature anomalies are calculated by NASA as the difference from the average temperature in a specified year.**
+
+**Answer:** **False.**  
+NASA GISS calculates temperature anomalies relative to a fixed 30-year baseline period (1951–1980), not a single year (NASA GISS Surface Temperature Analysis).
+
+### Question 4  
+**Temperature anomalies are useful for comparing temperatures over long time periods or for measuring the temperature of large regions.**
+
+**Answer:** **True.**  
+Anomalies minimise biases from local absolute temperature differences, making them suitable for long-term comparisons and large-scale spatial averaging (Hansen et al., 2010; NASA GISS).
+
+## Additional Readings
+
+Use the links below to find out more about the topics discussed this week. 
+
+- Read the full IPCC 2022 report on their [website](https://www.ipcc.ch/report/ar6/wg2/). This week’s content covered parts of Chapter 16 (Key risks across sectors and regions). The full report contains more detailed information about climate change’s effects on specific aspects of life (such as food, water, and health), and the particular risks faced by each continent. 
+- To learn more about how policymakers can design climate policies in the face of extreme risks and uncertain outcomes, read the book [“Climate Shock: The Economic Consequences of a Warmer Planet”](https://press.princeton.edu/books/hardcover/9780691159478/climate-shock) by Gernot Wagner and Martin L. Weitzman.
+- Listen to this [EconTalk podcast](https://www.econtalk.org/martin-weitzman-on-climate-change/) guest-starring Martin Weitzman, a climate economist, where he discusses how to deal with the non-trivial risk of a climate-induced catastrophe.  
+- The [website](https://ourworldindata.org/co2-and-greenhouse-gas-emissions) Our World in Data contains country profiles, allowing you to explore how CO2 and other greenhouse gas emissions have changed over time, which sectors contribute the most emissions, and how energy efficient a country is. 
+
+# **Week 2**
+
+## **Climate change: Effects on extreme weather events and temperature variability**
+
+There is evidence that climate change increases the frequency and intensity of extreme weather events, including droughts, heatwaves, and tropical cyclones. [This chart](https://weather.metoffice.gov.uk/climate/climate-and-extreme-weather) from the UK’s Met Office shows that the number of weather events causing loss has increased consistently over the past few decades, from around 250 in 1980 to over 800 in 2019. The economic and social impacts of these events can be severe and long-lasting. 
+
+Understanding the link between climate change and extreme weather events is not straightforward. Since a number of factors - both natural and man-made - contribute to extreme weather events, researchers need to conduct **attribution studies** to determine how much human-induced climate change has contributed to these events. In an attribution study, researchers collect data on environmental factors such as surface temperature, weather patterns, and greenhouse gas emissions. They then use a model to simulate two scenarios: the climate as it is today, and the climate as it would have been without human activity. Comparing these two scenarios helps us understand the effect that climate change had on an extreme weather event. 
+
+For example, in the summer of 2019, the UK and Western Europe experienced a severe heatwave, with the temperature in some areas being the highest since records began. Using current and historical data from weather stations across Europe, [researchers found](https://iopscience.iop.org/article/10.1088/1748-9326/aba3d4) that compared to a scenario without human influence on the climate, the temperatures during the heatwave were 1.5-3C warmer, and that similarly intense heatwaves would occur ten times more frequently (once every 50-150 years compared to once every 1000 years).
+
+Researchers have published hundreds of attribution studies looking at specific extreme weather events around the world. 
+- In 2021, CarbonBrief created an interactive map of all studies published to date, which you can explore [at this link](https://interactive.carbonbrief.org/attribution-studies/index.html). Of the 405 extreme weather events studied, 70% were made more likely or more severe by climate change (compared to 9% that were made less likely or less severe). 
+- Every year, the American Meteorological Society (AMS) publishes a report of attribution studies that investigate the role of climate change on extreme weather events experienced in that year. You can read the latest report (from 2020) at [this link](https://www.ametsoc.org/ams/publications/special-collections/explaining-extreme-events-from-a-climate-perspective-ams-special-collection/). 
+
+**Optional activity:**
+To learn more about models and why they are useful, read [Section 2.2](https://books.core-econ.org/the-economy-v1/book/text/02.html#22-economic-models-how-to-see-more-by-looking-at-less) of The Economy textbook.
+
+## **How is climate change linked to extreme weather events?** (Discussion Prompt)
+
+ Go to the [CarbonBrief interactive map](https://interactive.carbonbrief.org/attribution-studies/index.html) or the [AMS website](https://www.ametsoc.org/ams/index.cfm/publications/bulletin-of-the-american-meteorological-society-bams/explaining-extreme-events-from-a-climate-perspective/) and pick one extreme weather event. In your discussion post, include the following details:
+ 
+- Summarise the event (location, year, type of weather phenomenon).
+- Based on the research presented in that website, how (if at all) did climate change influence the occurrence or severity of that event?
+- Share any fact(s) about the event or the research findings that you found surprising and/or interesting.
+
+> [!NOTE]
+> I picked the **June 2021 Pacific Northwest heatwave (the “heat dome”)** in **British Columbia, Washington, and Oregon**. It happened in **late June to early July 2021** and it was an **extreme heatwave** with record-breaking temperatures across the region.
+> 
+> **How climate change influenced it (based on the research on the website):**
+> The attribution assessment I read concludes that this kind of event was **made much more likely by human-caused climate change**. In particular, the World Weather Attribution analysis describes it as **virtually impossible without human-caused warming** and estimates it was made **at least ~150 times more likely** in today’s climate; it also reports the event was **hotter** than it would have been in a pre-industrial climate.
+>
+> **What surprised me:**
+> Two things stood out:
+> (1) the framing that this heatwave was roughly a **one-in-1,000-year event** in today’s climate (already warmed), and
+> (2) despite being “rare”, climate change still shifted the odds by a huge amount (150x), which shows how strongly warming can load the dice for extremes. ([Carbon Brief][1])
+
+## **How have extreme weather events affected your country?** (Discussion Prompt)
+
+The 2021 [Global Climate Risk Index report](https://www.germanwatch.org/de/19777) analyses the extent to which countries have been affected by climate-related extreme weather events in the past decade (2000-2019). Read the report (focusing on pages 3-15) and find the data for your country in Table 3 (starts on page 39). Use the discussion forum to share your answers to the following questions:
+
+- How does your country rank on the Climate Risk Index?
+- Which types of extreme weather events are likely to affect your country?
+
+> [!NOTE]
+> For **Mexico**, the *Global Climate Risk Index 2021* ranks the country **59th worldwide over the period 2000–2019**, and **54th in 2019 alone**, indicating a moderate but non-negligible exposure to climate-related extreme weather events.
+>
+> According to the report, Mexico is mainly affected by **tropical storms and hurricanes**, which often lead to **flooding**, as well as **droughts and heat extremes**. These risks are consistent with Mexico’s geographic exposure to both the Pacific and Atlantic basins and its vulnerability to prolonged dry periods in several regions.
+
+## 
 
 
 
