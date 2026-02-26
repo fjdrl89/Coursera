@@ -258,7 +258,46 @@ The 2021 [Global Climate Risk Index report](https://www.germanwatch.org/de/19777
 >
 > According to the report, Mexico is mainly affected by **tropical storms and hurricanes**, which often lead to **flooding**, as well as **droughts and heat extremes**. These risks are consistent with Mexico’s geographic exposure to both the Pacific and Atlantic basins and its vulnerability to prolonged dry periods in several regions.
 
-## 
+## **Excel: Make frequency tables to summarise global temperatures in the decades 1950-2020** (Reading)
+
+Last week, we used line charts to show how average yearly temperatures have changed over time. The average can be a useful way to summarise yearly temperatures, but policymakers are also interested in the distribution of temperatures – the possible values and how frequently they occur. 
+
+Will weather become more extreme and vary more as a result of climate change? This [NASA data visualisation](https://svs.gsfc.nasa.gov/4891) uses the same temperature dataset you have been using to investigate the distribution of temperatures and temperature variability over time. Read the webpage, paying close attention to the descriptions of the temperature distributions.
+
+We can use the mean and median to describe distributions, and we can use deciles to describe parts of distributions. To visualize entire distributions in Excel, we can use column charts. (For some practice on using these concepts and creating column charts in Excel, see [Section 1.3](https://books.core-econ.org/espp/book/text/01.html#11-affluence-and-income-inequality) of Economy, Society, and Public Policy textbook). 
+
+We will now visualize the distribution of temperatures from 1950-2010, focusing on changes across the decades. We will be working with the same NASA temperature data from last week. If you would like to re-download the data, here are the instructions:
+
+- Go to NASA’s [Goddard Institute for Space Studies website](https://data.giss.nasa.gov/gistemp/).
+- Under the subheading ‘Combined Land-Surface Air and Sea-Surface Water Temperature Anomalies’, select the CSV version of ‘Northern Hemisphere-mean monthly, seasonal, and annual means’ (right-click and select ‘Save Link As…’ or ‘Download Linked File As…’).
+- The default name of this file is NH.Ts+dSST.csv. Give it a suitable name and save it in an easily accessible location, such as a folder on your Desktop or in your personal folder.
+- Open the CSV file and save it as an Excel (.xlsx) spreadsheet (you can use the same filename). 
+
+To create a column chart using our temperature data, we first need to summarize the data using a frequency table. A frequency table records how many observations in a dataset have a particular value, range of values, or belong to a particular category.    
+
+To create a column chart using the temperature data we have, we first need to summarize the data using a frequency table. Instead of using deciles to group the data, we use intervals of 0.05, so that temperature anomalies with a value from −0.3 to −0.25 will be in one group, a value greater than −0.25 up until 0.2 in another group, and so on. The frequency table shows us how many values belong to a particular group.
+
+**Step 1.** We will make frequency tables of the monthly temperature for June, July, and August (columns G to I in your spreadsheet) over different time periods: 1951-1980 and 1981-2010.     
+
+- Use Excel’s ‘Sort & Filter’ option button to filter the temperature data so that only the years 1951 to 2010 (inclusive) are visible.
+- In a new tab on your spreadsheet, make two tables in the same format as shown below, where the first column shows values ranging from -0.3 to 1.05 (in intervals of 0.05). The first table will be the frequency table for 1951-1980, the second table will be for 1981-2010. 
+- Use Excel’s FREQUENCY function to fill in the values in the second column of each table. For each table, make sure that you are only using the data for the years specified for that table (e.g. the first table should use data for 1951-1980 and not the other years). 
+- As in the figure above, we will plot the percentage of months in each temperature interval, rather than the number of months. In the third column of each table, use cell formulae to convert the frequencies (second column) into percentages. 
+
+[Alternatively, follow this link for an illustrated guide on how to use Excel's FREQUENCY function.](https://books.core-econ.org/doing-economics/book/text/01-02.html#excel-walk-through-13-creating-a-frequency-table)
+
+|**Range of temperature anomaly (T)** | **Frequency**| **% of months** |
+|-------|--|--|
+| -0.30 |  |  |
+|-0.25 |  |  |
+|... |  |  | 
+|... |  |  |
+|1.00 |  |  |
+|1.05 |  |  |
+
+**Hints:**
+
+If you would like to check your work, you can consult the [solution guide](https://books.core-econ.org/doing-economics/book/text/01-04.html#part-12-variation-in-temperature-over-time) (point 1). Note that your answers may be slightly different from the solution guide because you are using the most updated data. 
 
 
 
